@@ -11,8 +11,6 @@ library(ggplot2)
 library(ggsci)
 ```
 
-
-
 ```{r}
 long1 <- c(5.8987,77.209)
 lat1 <- c(51.9851,28.6139)
@@ -43,5 +41,15 @@ line_map<- leaflet(df_colormarker) %>% addTiles() %>%
   addPolylines(data = df_location5, lng = ~long5, lat = ~lat5,weight=0.226458) 
 
 line_map
+
+~ $ git clone https://github.com/username/username.github.io
+
+~ $ cd username.github.io
+~ $ echo "Hello World" > index.html
+
+~ $ git add --all
+~ $ git commit -m "Initial commit"
+~ $ git push -u origin main
+
 ```
 
